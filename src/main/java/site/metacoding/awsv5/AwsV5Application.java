@@ -23,7 +23,7 @@ public class AwsV5Application {
 	@Bean
 	public CommandLineRunner initData1() {
 		return (args) -> {
-			System.out.println("Dev CommandLineRunner 실행됨 ------------------------------------------");
+			System.out.println("Dev CommandLineRunner 실행됨 test ------------------------------------------");
 		};
 	}
 
